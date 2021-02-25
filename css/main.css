@@ -34,12 +34,14 @@ body{
 @media (max-width: 768px){
   .carousel-caption{
     position: static;
-    padding: 0 0 30px;
+    padding-top: 0;
   }
   .header-content{
     box-shadow: 0 0 0 0;
     border-radius: 0;
-    padding: 0;
     background-color: #ff900778 !important;
+  }
+  .carousel-indicators [data-bs-target]{
+    height: 10px;
   }
 }
